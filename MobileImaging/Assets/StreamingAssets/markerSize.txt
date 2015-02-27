@@ -1,0 +1,31 @@
+//Marker types Available:
+//FRAME_MARKER = 0
+//SIMPLE_ID_MARKER = 1
+//DATA_MATRIX_MARKER = 2
+//IMAGE_TARGET = 3
+//
+//specific marker size in meters is to be written in this format:
+//marker.0=0.084x0.084
+//marker.1=0.0765x0.0765
+//etc.
+//
+//An example of a full block of marker information:
+//markerType=1
+//markerBaseResolution=1530x1530
+//markerBaseXsizeMeters=0.153
+//marker.0=0.084x0.084
+//marker.1=0.0765x0.0765
+
+fileVersion=1.0
+
+markerType=0
+markerBaseResolution=1650x1650
+markerBaseXsizeMeters=0.165
+
+markerType=1
+markerBaseResolution=1530x1530
+markerBaseXsizeMeters=0.153
+
+markerType=3
+markerBaseResolution=2730x1740
+markerBaseXsizeMeters=0.273

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><dsvl_input><!-- 1.3M HD WebCam --><!-- CLStudio Source 1 --><!-- PS3Eye Camera --><!-- Kinect Camera -->	<camera friendly_name="1.3M HD WebCam" show_format_dialog="false" frame_width="640" frame_height="480" frame_rate="30">		<pixel_format>			<RGB32 flip_v="true"/>		</pixel_format>	</camera></dsvl_input>

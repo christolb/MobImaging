@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  - 114: {fileID: 11400002}
+  - 114: {fileID: 11400004}
+  - 114: {fileID: 11400006}
+  - 114: {fileID: 11400008}
+  - 114: {fileID: 11400010}
+  m_Layer: 0
+  m_Name: AR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1ecacbbab9c8b74087d88689bfed355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug1: 0
+  geometryContainer: {fileID: 0}
+  mergedScenesNames: []
+  outlineType: -1
+  recording: 0
+  mergedScenesAmountFile: 0
+  fileRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  markerRecorderReady: 0
+  fileWindowOpen: 0
+  touchAValid: 0
+  customTouchCount: 0
+  trackingFrozen: 0
+  selectedGeometry: {fileID: 0}
+  geometryModeMaterial: {fileID: 2100000, guid: 99c98333d062fc84c8aec33903cc7faa,
+    type: 2}
+  gameModeMaterial: {fileID: 2100000, guid: 0bb06fda466de41a9a9dd54f04c5cbf0, type: 2}
+  rayCastLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967035
+  sceneObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  mergedScenes: 
+  worldCenterSceneIndex: -1
+  trackingMarkerInViewScenes: 
+  forceOutlineSetting: 0
+  arrowPrefab: {fileID: 100000, guid: 480de464f1eba774db78dd3d31d99262, type: 2}
+  trianglePrefab: {fileID: 100000, guid: bd134c3240f960e43807fda1993ccf42, type: 2}
+  planePrefab: {fileID: 100000, guid: 162f4366519f56c4a92964ca56c1adb5, type: 2}
+  outlinePrefab: {fileID: 100000, guid: 21375a4a0eec04c0caba44afc3ffb961, type: 2}
+  cubePrefab: {fileID: 100000, guid: 5f8fa7887c7284e4ebf0caf27c5d4616, type: 2}
+  cylinderPrefab: {fileID: 100000, guid: d7d54820a1ea1434eb85b03d47d91658, type: 2}
+  linePrefab: {fileID: 100000, guid: f533b867db422f94abe6a704ecc5d8b0, type: 2}
+  dotPrefab1: {fileID: 100000, guid: 498021be20964ba4fbd663f1e44444a3, type: 2}
+  axisAllPrefab: {fileID: 100000, guid: bcc471a7d7e634ba2a93498d9b8f7fca, type: 2}
+  objPrefab: {fileID: 100000, guid: 9a31a37b56964423c96d150b6b22fa8c, type: 2}
+  zoomScreenPrefab: {fileID: 100000, guid: 1fd7ce62cd9653e4cb36c8634da742ff, type: 2}
+  backgroundCameraZoomScreenPrefab: {fileID: 100000, guid: 471ad05d3c3c1924fa87c1181abca681,
+    type: 2}
+  dotsPrefab: {fileID: 100000, guid: 65530ad2f61524d0d8864822b17739f0, type: 2}
+  dotsSelectionPrefab: {fileID: 100000, guid: 652b74803c3a4fc48a66c8026472b29f, type: 2}
+  geometryAmountMax: 30
+  dotsObjectRotation: {x: 0, y: 0, z: 0, w: 1}
+  dotsObjectPosition: {x: 0, y: 0, z: 0}
+  mode: 0
+  outlineObjects: []
+  pathfindingFinished: 0
+  usePoseFilter: 1
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5b8eafd65a8340089796e20d064c987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showLineMovement: 0
+  anchorAt: 6
+  numberOfLines: 5
+  pixelOffset: 5
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b767293797fac24484034e478c1a564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidTexDeform: {fileID: 0}
+  vidTexPatch: {fileID: 0}
+  vidTexObject: {fileID: 0}
+  zoomScreen: {fileID: 0}
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8346156f54d310d4984a98106b09bf44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mergedScenesString: 
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce47a5f3e8deb324685f7c8b9980e446, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markerType: 0
+  maxMarkerAmountInView: 4
+  totalMarkerAmount: 10
+  videoScreenMaterial: {fileID: 0}
+  markerTransform: []
+  SLAMpoints: []
+  markerCompositionInViewChanged: 0
+  markerInView: 0
+  markerId: 
+  markerName: 'Marker '
+  markerSize: []
+  imageSizeAR: {x: 0, y: 0}
+  textureSizeAR: {x: 0, y: 0}
+  videoScreen: {fileID: 0}
+  message: 
+  ready: 0
+  markerSizeFile: {fileID: 0}
+--- !u!114 &11400010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b897c24e259d2c4db301bc3571a7c25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneButtonSelectedTexture: {fileID: 2800000, guid: 579ffe86e5ec13146aa0c13c8e3b96d8,
+    type: 3}
+  sceneButtonWorldCenterTexture: {fileID: 2800000, guid: 327338bc29a9a4ddc8cc920f164a4ad6,
+    type: 3}
+  redDot: {fileID: 0}
+  editFloat: 0
+  worldCenterScene: 0
+  mergedScenesAmount: 0
+  hSliderValue: 0
+  menuToShow: 1
+  sceneMode: 0
+  messageSelectGeometry: Select geometry first
+  homeButtonString: []
+  menuRect2:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  message: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 72e94a5bbfb604275aafc02b58ea012a
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - scene: {instanceID: 0}
+  - ball_prefab: {fileID: 128408, guid: e4a212c7ce30f47f28a2ea3b6fc941a4, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
