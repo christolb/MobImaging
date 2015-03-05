@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿	 using UnityEngine;
 using System.Collections;
 
 public class shootBalls : MonoBehaviour {
@@ -11,6 +11,8 @@ public class shootBalls : MonoBehaviour {
         AR_cam = (GameObject.Find("ARCamera")).GetComponent<Transform>();
 		//AR_cam = Camera.current.GetComponent<Transform> ();
         scene = transform.parent;
+
+
     }
     
     // Update is called once per frame
@@ -22,7 +24,7 @@ public class shootBalls : MonoBehaviour {
 				Vector3 shooting_direction = AR_cam.forward;
 				((GameObject)Instantiate (
                 	    ball_prefab, shooting_position, Quaternion.identity
-				)).GetComponent<Rigidbody> ().AddForce (shooting_direction*500);
+				)).GetComponent<Rigidbody> ().AddForce (shooting_direction * 200);
 
 		}
     }

@@ -15,9 +15,9 @@ public class placeWalls : MonoBehaviour {
             // Debug.Log("found marker 0");
             // Debug.Log(refObj.transform.position.z);
             // GameObject placedObj = GameObject.Find("/worldCenterObject/Sphere/Sphere");
-            GameObject placedObj = GameObject.Find("Capsule");
+            GameObject placedObj = GameObject.Find("Wall");
             if( placedObj != null) {
-                Debug.Log("placing sphere");
+                Debug.Log("placing wall");
                 placedObj.transform.position = refObj.transform.position + Vector3.forward * 2.0f;
             }
         }

@@ -187,7 +187,7 @@ public class Vuforia : MonoBehaviour, ITrackerEventHandler {
 			
 			if(imageTracker != null){
 			
-				string dataSetName = "QCAR/MobileImaging.xml";
+				string dataSetName = "QCAR/my_targets.xml";
 				DataSet.StorageType storageType = DataSet.StorageType.STORAGE_APPRESOURCE;
 				
 				if(!DataSet.Exists(dataSetName, storageType)){

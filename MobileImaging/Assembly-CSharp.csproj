@@ -94,6 +94,8 @@
      <Compile Include="Assets\Scripts\StbPlugin.cs" />
      <Compile Include="Assets\Scripts\StringAR.cs" />
      <Compile Include="Assets\Scripts\Vuforia.cs" />
+     <Compile Include="Assets\keeScripts\ObjectHighlighter.cs" />
+     <Compile Include="Assets\keeScripts\OnTouchDown.cs" />
      <Compile Include="Assets\keeScripts\ball.cs" />
      <Compile Include="Assets\keeScripts\placeWalls.cs" />
      <Compile Include="Assets\keeScripts\shootBalls.cs" />
