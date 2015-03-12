@@ -79,6 +79,7 @@
      <Compile Include="Assets\Scripts\Primary.cs" />
      <Compile Include="Assets\Scripts\ball.cs" />
      <Compile Include="Assets\Scripts\place_walls.cs" />
+     <Compile Include="Assets\keeScripts\wall_setup.cs" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\license_3rdpartynotice.txt" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\RenderVideoBackground.shader" />

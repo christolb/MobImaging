@@ -77,7 +77,6 @@
     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WordBehaviour.cs" />
     <Compile Include="Assets\Scripts\Primary.cs" />
     <Compile Include="Assets\Scripts\ball.cs" />
-    <Compile Include="Assets\Scripts\place_walls.cs" />
     <None Include="Assets\Qualcomm Augmented Reality\Shaders\VertexLitWithZ.shader" />
     <None Include="Assets\license_3rdpartynotice.txt" />
     <None Include="Assets\Qualcomm Augmented Reality\Shaders\RenderVideoBackground.shader" />
@@ -95,6 +94,7 @@
     <Reference Include="Qualcomm.Vuforia.UnityExtensions">
       <HintPath>C:\Users\Eivind\MobImaging\MobileImaging\Assets\Qualcomm Augmented Reality\Scripts\Internal\Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
     </Reference>
+    <Compile Include="Assets\Scripts\wall_setup.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -104,4 +104,7 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ItemGroup>
+    <Folder Include="Assets\keeScripts\" />
+  </ItemGroup>
 </Project>

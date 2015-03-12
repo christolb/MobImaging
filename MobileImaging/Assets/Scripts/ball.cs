@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class ball : MonoBehaviour {
-
+	Primary primary = new Primary();
 	// Use this for initialization
 	void Start () {
 	
@@ -28,5 +28,6 @@ public class ball : MonoBehaviour {
 		if (other.gameObject.CompareTag("hole")) {
 			Destroy(gameObject);
 		}
-}
+		//primary.
+	}
 }
