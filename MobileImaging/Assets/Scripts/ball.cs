@@ -15,7 +15,18 @@ public class ball : MonoBehaviour {
                 || (pos.y > 10 || pos.y < -10)
                 || (pos.z > 10 || pos.z < -10)) {
             Debug.Log("I'm dead");
-            Destroy(this);
+            Destroy(gameObject);
         }
 	}
+	void OnCollisionEnter(Collision collision) {
+		// can put sound effect, particle effect
+		Debug.Log("collision!");
+	}
+	
+	void OnTriggerEnter (Collider other) {
+		Debug.Log("trigger enter");
+		if (other.gameObject.CompareTag("hole")) {
+			Destroy(gameObject);
+		}
+}
 }

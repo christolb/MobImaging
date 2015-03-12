@@ -64,14 +64,14 @@
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/Program files/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
- <Reference Include="UnityEditor.Graphs">
- <HintPath>D:/Program files/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
- </Reference>
  <Reference Include="Qualcomm.Vuforia.UnityExtensions.Editor">
  <HintPath>C:/Users/Eivind/MobImaging/MobileImaging/Assets/Editor/QCAR/Scripts/Qualcomm.Vuforia.UnityExtensions.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Qualcomm.Vuforia.UnityExtensions">
  <HintPath>C:/Users/Eivind/MobImaging/MobileImaging/Assets/Qualcomm Augmented Reality/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>D:/Program files/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
