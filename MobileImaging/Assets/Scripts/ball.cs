@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class ball : MonoBehaviour {
-	Primary primary = new Primary();
+	//Primary primary = new Primary();
 	// Use this for initialization
 	void Start () {
 	
