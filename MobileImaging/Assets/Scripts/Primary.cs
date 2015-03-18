@@ -10,9 +10,9 @@ public class Primary : MonoBehaviour {
 	private float maxSliderValue = 10.0f;
 	public GUISkin customSkin = null;
 
-	private int player = 1;
-	private int player1score = 0;
-	private int player2score = 0;
+	public int player = 1;
+	public int player1score = 0;
+	public int player2score = 0;
 	
 	void Start () {
 		game_cam = (GameObject.Find("ARCamera")).GetComponent<Transform>();
