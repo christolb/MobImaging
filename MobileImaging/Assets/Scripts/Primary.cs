@@ -26,6 +26,7 @@ public class Primary : MonoBehaviour {
 		case 's':
 			if (GUI.Button (new Rect (Screen.width/10, Screen.height/10 + Screen.height/7, Screen.width/6, Screen.height/8), "Play Game")) {
 				mode = 'g';
+
 			}
 			if (GUI.Button (new Rect (Screen.width/10, Screen.height/10, Screen.width/6, Screen.height/8), "New Recording")) {
 				mode = 'r';

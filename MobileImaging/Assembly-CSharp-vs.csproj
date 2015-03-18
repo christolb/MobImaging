@@ -78,6 +78,7 @@
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WordBehaviour.cs" />
      <Compile Include="Assets\Scripts\Primary.cs" />
      <Compile Include="Assets\Scripts\ball.cs" />
+     <Compile Include="Assets\Scripts\placeBallCam.cs" />
      <Compile Include="Assets\Scripts\wall_setup.cs" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\license_3rdpartynotice.txt" />
