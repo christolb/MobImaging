@@ -2,7 +2,11 @@ fileFormatVersion: 2
 guid: c73f64457dd8ab349b8360adb6f06e1e
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - game_cam: {instanceID: 0}
+  - ball_prefab: {instanceID: 0}
+  - customSkin: {instanceID: 0}
+  - sound: {fileID: 8300000, guid: fe80c8bb32dd11d43a1c3a890d7268ba, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

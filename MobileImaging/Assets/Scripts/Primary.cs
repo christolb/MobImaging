@@ -10,11 +10,14 @@ public class Primary : MonoBehaviour {
 	private float maxSliderValue = 10.0f;
 	public GUISkin customSkin = null;
 	
-	private int player = 1;
-	private int player1score = 0;
-	private int player2score = 0;
-	
-	
+	public int player = 1;
+	public int player1score = 0;
+	public bool player1scoreAdd = false;
+	public bool player1scoreSub = false;
+	public bool player2scoreAdd = false;
+	public bool player2scoreSub = false;
+	public int player2score = 0;
+
 	void Start () {
 		game_cam = (GameObject.Find("BallCam")).GetComponent<Transform>();
 	}
@@ -83,10 +86,28 @@ public class Primary : MonoBehaviour {
 		
 	}
 	void Shoot () {
+
+
 		if (player == 1) {
 			player = 2;
+			if (player2scoreAdd == true) {
+				player2score ++;
+				player2scoreAdd = false;
+			}
+			if (player2scoreSub == true) {
+				player2score --;
+				player2scoreSub = false;
+			}
 		} else {
 			player = 1;
+			if (player1scoreAdd == true) {
+				player1score ++;
+				player1scoreAdd = false;
+			}
+			if (player1scoreSub == true) {
+				player1score --;
+				player1scoreSub = false;
+			}
 		}
 		Vector3 shooting_position = game_cam.localPosition;
 		Vector3 shooting_direction = game_cam.forward;
