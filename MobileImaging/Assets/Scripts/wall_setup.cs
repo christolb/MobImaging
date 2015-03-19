@@ -22,7 +22,7 @@ public class wall_setup : MonoBehaviour {
 			}
 		}
 		for (int i = 0; i < num_ar; i++) {
-			scene_objects[i].transform.position = Vector3.zero;
+			scene_objects[i].transform.position = Vector3.one * 1000;
 			scene_objects[i].transform.rotation = Quaternion.identity;
 		}
 	}

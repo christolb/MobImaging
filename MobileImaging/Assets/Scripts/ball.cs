@@ -25,27 +25,27 @@ public class ball : MonoBehaviour {
 	
 	void OnTriggerEnter (Collider other) {
 		Debug.Log("trigger enter");
-
+		
 		if (other.gameObject.CompareTag("hole")) {
-            Primary pr = (GameObject.Find("primary")).GetComponent<Primary>();
-            if (gameObject.CompareTag("playerball")) {
-                if (pr.player == 1) {
-					pr.player2scoreSub = true;
-                } else if (pr.player == 2) {
-					pr.player1scoreSub = true;
-
-				}
-            } else if (gameObject.CompareTag("target")) {
-                if (pr.player == 1) {
-					pr.player2scoreAdd = true;
-					pr.player = 1;
-                } else if (pr.player == 2) {
-					pr.player1scoreAdd = true;
-					pr.player = 2;
-                }
-            }
-
+			 Primary pr = (GameObject.Find("primary")).GetComponent<Primary>();
+			if (gameObject.CompareTag("playerball")) {
+				 if (pr.player == 1) {
+				     pr.player1score--;
+				 } else if (pr.player == 2) {
+				     pr.player2score--;
+				 }
+			} else if (gameObject.CompareTag("target")) {
+				 if (pr.player == 1) {
+				     pr.player1score++;
+				     pr.player = 1;
+				 } else if (pr.player == 2) {
+				     pr.player2score++;
+				     pr.player = 2;
+				 }
+			}
+			
 			Destroy(gameObject);
 		}
 	}
+
 }
